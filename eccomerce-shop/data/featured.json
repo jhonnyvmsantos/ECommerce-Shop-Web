@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "img": "./imgs/no-image.png",
+            "name": "Product 1",
+            "rate": 4,
+            "price": 4157.15,
+            "coin": "BRL"
+        },
+        {
+            "id": 2,
+            "img": "./imgs/no-photo.png",
+            "name": "Product 2",
+            "rate": 5,
+            "price": 5172.00,
+            "coin": "BRL"
+        },
+        {
+            "id": 3,
+            "img": "./imgs/no-img.png",
+            "name": "Product 3",
+            "rate": 2,
+            "price": 1227.12,
+            "coin": "BRL"
+        }
+    ]
+}

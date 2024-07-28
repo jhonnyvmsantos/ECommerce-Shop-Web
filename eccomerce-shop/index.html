@@ -9,7 +9,7 @@
       href="./imgs/online-shopping.png"
       type="image/x-icon"
     />
-    <script defer src="./script.js"></script>
+    <script defer src="./script.js" type="module"></script>
     <title>E-Commerce</title>
   </head>
   <body>
@@ -51,27 +51,27 @@
     <main>
       <div class="main-image-apresentation inner-content">
         <img
-          class="image-apresentation"
+          class="image-apresentation translate-y"
           src="./imgs/no-image.png"
           alt="left-image-carrousel"
         />
         <img
-          class="image-apresentation"
+          class="image-apresentation translate-y"
           src="./imgs/no-photo.png"
           alt="middle-image-carrousel"
         />
         <img
-          class="image-apresentation"
+          class="image-apresentation translate-y"
           src="./imgs/no-img.png"
           alt="right-image-carrousel"
         />
       </div>
 
       <div class="main-featured-product">
-        <h2>Produtos Destacados</h2>
+        <h2 class="main-title">Produtos Destacados</h2>
         <!-- <div class="main-title-underline"/> -->
 
-        <img src="./imgs/no-image.png" alt="main-carrousel-img">
+        <div id="featured-container" class="product-container" />
       </div>
 
       <div class="main-latest-product"></div>
