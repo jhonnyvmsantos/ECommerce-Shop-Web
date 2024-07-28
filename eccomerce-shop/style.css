@@ -8,6 +8,10 @@ body {
   font-family: sans-serif;
 }
 
+p, h2, h3 {
+  overflow-wrap: anywhere;
+}
+
 /* HEADER-NAV */
 
 .navbar {
@@ -26,11 +30,11 @@ body {
 nav ul {
   display: flex;
   flex-direction: row;
+  gap: 1rem;
 }
 
 nav ul li {
   list-style: none;
-  margin-right: 1rem;
   cursor: pointer;
   color: white;
 }
@@ -50,7 +54,6 @@ nav ul li:hover {
 .store img {
   width: 45px;
   height: 45px;
-  margin-right: 1rem;
   cursor: pointer;
 }
 
@@ -93,12 +96,12 @@ header {
 }
 
 .header-welcome h2 {
-  margin: 1rem;
+  margin: 1rem 0;
   font-size: 2rem;
 }
 
 .header-welcome p {
-  margin: 0.5rem;
+  margin: 1rem 0;
   font-size: 1rem;
 }
 
@@ -106,7 +109,7 @@ header {
   background-color: rgb(0, 81, 255);
   color: white;
   padding: 1rem;
-  margin: 1rem;
+  margin: 1rem 0;
   font-size: 1rem;
   font-weight: bold;
   width: 25vw;
@@ -131,6 +134,7 @@ header {
 .header-image img {
   max-width: 90vw;
   max-height: 90vw;
+  transition: all 0.2s;
 }
 
 .menu-visible {
@@ -159,18 +163,21 @@ header {
 }
 
 .image-apresentation {
-  width: 30vw;
+  width: 25vw;
 }
 
-.main-featured-product {
+.main-product {
   display: flex;
+  margin: 2rem 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .main-title {
-  margin: 1rem;
+  margin: 2rem 0;
   font-size: 1.5rem;
   border-bottom: 3px solid rgb(0, 81, 255);
   padding-bottom: 5px;
@@ -191,6 +198,9 @@ header {
 
 .product-card h3 {
   font-size: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
 }
 
 .product-card p span {
@@ -200,6 +210,15 @@ header {
 
 .product-card img {
   width: 25vw;
+  margin: 0.5rem 0;
+  justify-self: center;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  background-color: #2c2c2c;
 }
 
 /* MEDIA */
@@ -217,7 +236,6 @@ header {
     background-color: #2c2c2c;
     top: 77px;
     left: 5%;
-    margin: auto;
     align-self: center;
     width: 90%;
   }
@@ -229,7 +247,6 @@ header {
   }
 
   nav ul li {
-    margin: 0;
     font-size: 1rem;
     padding: 1rem;
   }
