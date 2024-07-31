@@ -3,7 +3,7 @@
         {
             "id": 1,
             "img": "./imgs/no-photo.png",
-            "name": "Product 4",
+            "name": "Product 5",
             "rate": 5,
             "price": 1222.01,
             "coin": "BRL"
@@ -11,7 +11,7 @@
         {
             "id": 2,
             "img": "./imgs/no-image.png",
-            "name": "Product 5",
+            "name": "Product 6",
             "rate": 4,
             "price": 4154.15,
             "coin": "BRL"
@@ -19,9 +19,49 @@
         {
             "id": 3,
             "img": "./imgs/no-img.png",
-            "name": "Product 6",
-            "rate": 3,
+            "name": "Product 7",
+            "rate": 5,
+            "price": 3111.00,
+            "coin": "BRL"
+        },
+        {
+            "id": 4,
+            "img": "./imgs/no-img.png",
+            "name": "Product 8",
+            "rate": 4,
             "price": 2485.12,
+            "coin": "BRL"
+        },
+        {
+            "id": 5,
+            "img": "./imgs/no-image.png",
+            "name": "Product 9",
+            "rate": 3,
+            "price": 1585.12,
+            "coin": "BRL"
+        },
+        {
+            "id": 6,
+            "img": "./imgs/no-photo.png",
+            "name": "Product 10",
+            "rate": 1,
+            "price": 6214.99,
+            "coin": "BRL"
+        },
+        {
+            "id": 7,
+            "img": "./imgs/no-photo.png",
+            "name": "Product 11",
+            "rate": 1,
+            "price": 6214.99,
+            "coin": "BRL"
+        },
+        {
+            "id": 8,
+            "img": "./imgs/no-photo.png",
+            "name": "Product 12",
+            "rate": 1,
+            "price": 6214.99,
             "coin": "BRL"
         }
     ]

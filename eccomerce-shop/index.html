@@ -26,14 +26,14 @@
       <nav>
         <ul>
           <li>HOME</li>
-          <li>PRODUCTS</li>
-          <li>ABOUT</li>
+          <li>CATALOGO</li>
+          <li>SOBRE NÓS</li>
         </ul>
       </nav>
     </div>
 
     <header class="inner-content">
-      <div class="header-welcome">
+      <div class="image-close" id="header-text-apresentation">
         <h2>Seja bem vindo! Conheça o melhor que temos a oferecer.</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo ab
@@ -43,43 +43,88 @@
         <button type="button">Nos Conheça!</button>
       </div>
 
-      <div class="header-image">
-        <img src="./imgs/no-photo.png" alt="header-image" />
+      <div class="img-preview">
+        <img
+          src="./imgs/no-photo.png"
+          alt="header-image"
+          id="header-image-close"
+        />
       </div>
     </header>
 
     <main>
-      <div class="main-image-apresentation inner-content">
+      <div class="main-image-apresentation">
         <img
           class="image-apresentation translate-y"
           src="./imgs/no-image.png"
-          alt="left-image-carrousel"
+          alt="left-image"
         />
         <img
           class="image-apresentation translate-y"
           src="./imgs/no-photo.png"
-          alt="middle-image-carrousel"
+          alt="middle-image"
         />
         <img
           class="image-apresentation translate-y"
           src="./imgs/no-img.png"
-          alt="right-image-carrousel"
+          alt="right-image"
         />
       </div>
 
-      <div class="main-product">
-        <h2 class="main-title">Produtos Destacados</h2>
+      <section id="products-container">
+        <div class="main-product">
+          <h2 class="main-title">Produtos Destacados</h2>
 
-        <div id="featured-container" class="product-container" />
-      </div>
+          <div id="featured-container" class="product-container" />
+        </div>
 
-      <div class="main-product">
-        <h2 class="main-title">Últimos Lançamentos</h2>
+        <div class="main-product">
+          <h2 class="main-title">Últimos Lançamentos</h2>
 
-        <div id="latest-container" class="product-container" />
+          <div id="latest-container" class="product-container" />
+        </div>
+      </section>
+
+      <div class="main-prod-apresentation inner-content">
+        <div class="image-close" id="main-text-apresentation">
+          <h2>Produto 0</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo ab
+            assumenda, quo culpa ea animi est tenetur? Earum quod aperiam
+            aliquam nihil odio iusto rerum id sunt quis, harum ex!
+          </p>
+          <button type="button">Veja mais!</button>
+        </div>
+
+        <div class="img-preview">
+          <img
+            src="./imgs/no-image.png"
+            alt="main-image"
+            id="main-image-close"
+          />
+        </div>
       </div>
     </main>
 
-    <footer></footer>
+    <hr />
+
+    <footer>
+      <div class="footer-top-side">
+        <h2>E<span>Commerce</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi deserunt esse ut dolorem culpa veritatis architecto sapiente, reprehenderit laudantium. Fuga porro non voluptatem itaque officiis pariatur excepturi vero recusandae sint!</p>
+      </div>
+
+      <div class="footer-bottom-side">
+        <div class="footer-download-available">
+          <h4>Baixe nossa aplicação</h4>
+          <p>Disponível para Android e IOS.</p>
+        </div>
+
+        <div class="footer-download-links">
+          <img src="./imgs/apple-store.png" alt="apple-store-download" />
+          <img src="./imgs/play-store.png" alt="play-store-download" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

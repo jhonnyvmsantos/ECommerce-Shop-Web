@@ -23,6 +23,14 @@
             "rate": 2,
             "price": 1227.12,
             "coin": "BRL"
+        },
+        {
+            "id": 4,
+            "img": "./imgs/no-img.png",
+            "name": "Product 4",
+            "rate": 2,
+            "price": 1227.12,
+            "coin": "BRL"
         }
     ]
 }
